@@ -1,0 +1,79 @@
+.body
+{
+	padding: 1px;
+	background-size: cover;
+	background position: relative;
+}
+html{
+	height: 100;
+}
+nav {
+	width:100%;
+background-color: white;
+width: 100%;	
+position:absolute;
+padding:5px;
+margin-bottom:40px;
+
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3em;
+	color: white;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0,0.2);
+	margin-left: 5px;
+}
+ 
+.styling{
+	font-family: arial;
+	font-size: 26px;
+	background-color: black;
+	padding: 50px;
+	text-decoration: none;
+	color: white;
+}
+.custStyle{
+	font-size: 25px;
+	font-family: sans-serif;
+}
+  .custHead{
+  	margin-left: 5%;
+  	padding-top:50px;
+  }
+  .gridMatter{
+  font-family: arial;
+  font-size: 20px;
+  }
+  .gridPosi {
+  	padding-top: 100px;
+  	margin-top: 50px;
+  	
+  }
+    #posi{
+    	padding: 30px
+    }
+    h3{
+    	text-align: center;
+    	font-family: bold;
+    	font-weight: 30;
+    }
+    .glyposi{
+     height:160px; 
+     width:160px;
+     padding-left: 60px; 
+    }
+    .alterquote{
+	font-family: arial;
+	font-size: 26px;
+	background-color: blue;
+	padding: 50px;
+	text-decoration: none;
+	color: white;
+}
+	

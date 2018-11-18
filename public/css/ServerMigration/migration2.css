@@ -1,0 +1,108 @@
+
+#bigbox{
+	padding-top: 20px;
+	width: 100%;
+	max-height: 550px;	
+}
+.text{
+	text-align: center;
+}
+nav {
+	width: 99%
+}
+#hiding{
+	display: none;
+	padding-top: 5px;
+}
+#hiding1{
+	display: none;
+	padding-top: 5px;
+}
+#hiding2{
+	display: none;
+	padding-top: 5px;
+}
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+   max-height: 430px;
+}
+#secthir {
+	max-height: 430px;
+	padding-right: 0px;
+}
+.img-responsive{
+	object-fit:cover;
+	max-width: 100%;
+	}
+#thirdthir{
+	max-height: 430px;
+	padding-left: 0px;
+}
+.img-responsive:hover{
+	box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);
+}
+#bigbox:hover{
+	box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);
+}
+
+#button1,#button2,#button3
+{
+	height: 50px;
+	width : 90px;
+	border-radius: 20px;
+	margin-bottom: 18px;
+
+}
+
+		#navbar .navbar-brand
+		{
+		  padding-right: 480px;
+          font-family: Roboto;
+          font-size: 25px;
+
+		}
+
+
+#button3:hover,
+#button2:hover,
+#button1:hover
+
+{
+	background-color: orange;
+}
+
+
+
+.new
+{
+	margin-top: 30px;
+}
+
+.design1,.design2,.design3 h2
+{
+  font-family: Poppins;
+}
+
+.jumbotron .design1 p,
+.jumbotron .design2 p,
+.jumbotron .design3 p
+
+
+{
+  font-size: 18px;
+  font-family:Roboto;
+}
+
+.row p
+{
+	font-size: 18px;
+	font-family: Roboto;
+}
+
+
+

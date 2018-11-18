@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aussies network and services</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact form</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="public/css/style.css">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
+</head>
+
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">QSL</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="customers">Customers</a></li>
+        <li><a href="contact">Contact</a></li>
+        <li><a href="about"></i>About</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<body class="body">
+
+  <div class="container">
+
+    <div class="contact">
+      <h3>We would like to hear from you</h3>
+      <h3>Contact Us</h3>
+
+
+      <form method="POST" action="send">
+        <p>
+          <label>Name</label>
+          <input type="text" name="name" required>
+        </p>
+        <p>
+          <label>Company</label>
+          <input type="text" name="company" required>
+        </p>
+        <p>
+          <label>Email Address</label>
+          <input type="email" name="email" required>
+        </p>
+        <p>
+          <label>Phone Number</label>
+          <input type="text" name="phone" required>
+        </p>
+        <p class="full">
+          <label>Message or Feedback</label>
+          <textarea name="message" rows="5" required></textarea>
+        </p>
+        <p class="full">
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script>
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+    sr.reveal('.container', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+  </script>
+
+</html>
+</body>

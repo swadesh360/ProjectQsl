@@ -1,0 +1,29 @@
+.container h2
+{
+	font-family: Roboto;
+}
+
+.container p
+{
+	font-family: Poppins;
+}
+
+.container img
+{
+	height: 150px; 
+	width : 150px;
+	
+}
+
+#upshifter
+{
+	margin-top : px;
+	
+}
+
+body
+{
+	background-image: url(images/Html.jpg);
+}
+
+

@@ -1,0 +1,88 @@
+.navbar-default
+{
+	background: #fff;
+	border:0;
+	font-family: Poppins;
+
+}
+
+.navbar-brand
+{
+	font-size: 20px;
+	color:#000 !important;
+	font-weight: bold;
+}
+
+body
+{
+	margin-top:65px;
+}
+
+#showcase h1
+{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: Poppins;
+}
+
+p
+{
+	font-family: Roboto;
+}
+
+#feedback
+{
+	background: #f1f1f1;
+	padding: 50px 0 39px 0;
+	text-align: center;
+	margin-top: 40px;
+
+
+}
+
+#feedback p
+{
+	font-size: 25px;
+	font-family: 'josephin-sans';
+	color: #000;
+}
+
+#feedback p.customer
+{
+	font-size:20px;
+	color: #666;
+}
+
+#information1
+{
+	margin-top: 25px;
+}
+
+#information1 .information-left
+{
+	margin-top: 35px;
+}
+
+#information2
+{
+	margin:20px 0 60px 0;
+
+}
+
+#form
+{
+	background: url(../images/3.jpg);
+	padding: 39px;
+	color:#fff;
+	border-top: #333 7px solid;
+	border-bottom:#333 7px solid;
+}
+footer
+{
+	padding: 30px;
+}
+

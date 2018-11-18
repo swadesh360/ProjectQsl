@@ -1,0 +1,74 @@
+    /*  * {
+		margin: 0px; padding: 0px; border: 0px;
+		}
+*/
+
+
+
+.bigbox {
+		height: 530px;
+		background-image: url(../images/server3.jpg);
+		background-position: 50% 50%;
+		background-size:100%;
+		background-repeat: no-repeat;
+		
+		}
+
+
+		.promobox {
+		width: 50%;
+		height: 500px;
+		float: left;
+		background-position: 50% 0%;
+		}
+		
+		.promobox div {
+
+		height: 480px;
+		border-color: #FFF;
+		border-style: solid;
+		}
+
+
+
+		#pb1 { 
+			background-image: url(../images/server.jpeg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+
+		     } 
+	   #pb1 div {
+	   	border-width: 10px 10px 0px 0px; 
+	           }
+	
+	   #pb2 { 
+	   	        background-image: url(../images/server2.jpg);
+	   	        background-size : 100%; 
+	   	        background-repeat: no-repeat;
+	   	     }
+	   #pb2 div {
+	   	       border-width: 10px 10px 0px 0px;
+	   	        }
+       
+       .container2
+       {
+       	   padding-top: 5em;
+       	   width: 100%; height: 500px;
+		   max-width: 1440px; min-width: 1024px;
+		   margin: 0px auto;
+       	   }
+
+       	   /* the two rules below are to format the link credits for the photos */
+	div {
+		text-align: center;
+		position: relative;
+		}
+
+		#navbar .navbar-brand
+		{
+		  padding-right: 480px;
+          font-family: Roboto;
+          font-size: 25px;
+
+		}
+		
